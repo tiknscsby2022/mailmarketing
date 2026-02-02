@@ -1,0 +1,3619 @@
+{
+    "DesktopAudioDevice1": {
+        "prev_ver": 520159234,
+        "name": "Desktop Audio",
+        "uuid": "d53d57da-2426-4625-90ed-73a9bb78e4ca",
+        "id": "wasapi_output_capture",
+        "versioned_id": "wasapi_output_capture",
+        "settings": {
+            "device_id": "default"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 2,
+        "private_settings": {
+            "mixer_hidden": true
+        }
+    },
+    "AuxAudioDevice1": {
+        "prev_ver": 520159234,
+        "name": "Mic/Aux",
+        "uuid": "c4e6ef02-9583-44fc-b115-b86a800f5f5f",
+        "id": "wasapi_input_capture",
+        "versioned_id": "wasapi_input_capture",
+        "settings": {
+            "device_id": "default"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": true,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+    },
+    "current_scene": "15. Tari Persembahan",
+    "current_program_scene": "Main BG",
+    "scene_order": [
+        {
+            "name": "Main BG"
+        },
+        {
+            "name": "Focus to One Person"
+        },
+        {
+            "name": "2. Prosesi Masuk"
+        },
+        {
+            "name": "3. Lagu Indonesia Raya"
+        },
+        {
+            "name": "4. Mengheningkan Cipta"
+        },
+        {
+            "name": "5. Prosesi Pengukuhan"
+        },
+        {
+            "name": "6. Wisudawan Terbaik"
+        },
+        {
+            "name": "7. Janji Wisudawan"
+        },
+        {
+            "name": "8. Satu nusa satu bangsa"
+        },
+        {
+            "name": "9. Mars & Hymne"
+        },
+        {
+            "name": "10. Sambutan direktur"
+        },
+        {
+            "name": "11. Sambutan dan Orasi Pak Ketua"
+        },
+        {
+            "name": "12. MoU"
+        },
+        {
+            "name": "13. Kesan pesan wisuda"
+        },
+        {
+            "name": "14. Kesan dan Pesan Industri"
+        },
+        {
+            "name": "15. Tari Persembahan"
+        },
+        {
+            "name": "Off"
+        }
+    ],
+    "name": "Untitled",
+    "groups": [],
+    "quick_transitions": [
+        {
+            "name": "Cut",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 1,
+            "fade_to_black": false
+        },
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "fade_to_black": false
+        },
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 3,
+            "fade_to_black": true
+        }
+    ],
+    "transitions": [],
+    "saved_projectors": [],
+    "canvases": [],
+    "current_transition": "Fade",
+    "transition_duration": 300,
+    "preview_locked": false,
+    "scaling_enabled": true,
+    "scaling_level": -22,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
+    "modules": {
+        "scripts-tool": [],
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "active": false,
+            "switches": []
+        },
+        "captions": {
+            "source": "",
+            "enabled": false,
+            "lang_id": 1033,
+            "provider": "mssapi"
+        }
+    },
+    "resolution": {
+        "x": 1366,
+        "y": 768
+    },
+    "version": 2,
+    "sources": [
+        {
+            "prev_ver": 520159234,
+            "name": "10. Sambutan direktur",
+            "uuid": "ebc0fe8c-4ea9-4248-b4c5-54b2615e2d3a",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 3,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Window Capture",
+                        "source_uuid": "1acf3d83-22af-4f4d-b2d1-4df2c2ec375a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 92.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -0.82962965965271
+                        },
+                        "scale": {
+                            "x": 1.2320643663406372,
+                            "y": 1.2317708730697632
+                        },
+                        "scale_rel": {
+                            "x": 1.2320643663406372,
+                            "y": 1.2317708730697632
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Image Slide Show 7",
+                        "source_uuid": "f542bcf8-4baf-455b-879d-3ade4aba5250",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "11. Sambutan dan Orasi Pak Ketua",
+            "uuid": "a492fcd9-14a3-4722-8dec-fdc0842ad850",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Window Capture",
+                        "source_uuid": "1acf3d83-22af-4f4d-b2d1-4df2c2ec375a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 92.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -0.82962965965271
+                        },
+                        "scale": {
+                            "x": 1.2320643663406372,
+                            "y": 1.2317708730697632
+                        },
+                        "scale_rel": {
+                            "x": 1.2320643663406372,
+                            "y": 1.2317708730697632
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Image Slide Show 7",
+                        "source_uuid": "f542bcf8-4baf-455b-879d-3ade4aba5250",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "12. MoU",
+            "uuid": "d071b8f6-048d-4b5f-b0fa-601c3ff8e5e8",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Image",
+                        "source_uuid": "8dae9352-d053-46ec-8777-1aa8b41bbb85",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "13. Kesan pesan wisuda",
+            "uuid": "6485eca8-75eb-481c-adb7-365538cdcc96",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Window Capture",
+                        "source_uuid": "1acf3d83-22af-4f4d-b2d1-4df2c2ec375a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 92.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -0.82962965965271
+                        },
+                        "scale": {
+                            "x": 1.2320643663406372,
+                            "y": 1.2317708730697632
+                        },
+                        "scale_rel": {
+                            "x": 1.2320643663406372,
+                            "y": 1.2317708730697632
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Image Slide Show 7",
+                        "source_uuid": "f542bcf8-4baf-455b-879d-3ade4aba5250",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "14. Kesan dan Pesan Industri",
+            "uuid": "ebd44bbb-691d-4c76-8c1f-3b47aad5659d",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 4,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Image Slide Show 8",
+                        "source_uuid": "fad38fcc-0a2a-4984-9406-bb3869683a3b",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.125,
+                            "y": 1.125
+                        },
+                        "scale_rel": {
+                            "x": 1.125,
+                            "y": 1.125
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Image Slide Show 7",
+                        "source_uuid": "f542bcf8-4baf-455b-879d-3ade4aba5250",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "15. Tari Persembahan",
+            "uuid": "bd38e2a2-21a3-4e44-8059-160ac366e86b",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 3,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Media Source 2",
+                        "source_uuid": "8cbe8b49-40ce-49aa-b9d0-b8a71e55ed21",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Media Source",
+                        "source_uuid": "5e8143a1-a07e-43fa-895b-0a60a67ec43c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "scale_rel": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "2. Prosesi Masuk",
+            "uuid": "c4c95595-77c6-4988-afc0-11ab672a7e5a",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 3,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Gending Temanten Adat Jawa  kebo giro.mp3",
+                        "source_uuid": "9c1560ef-1b6c-4fea-9710-94dd363c3f67",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Desain tanpa judul.mp4",
+                        "source_uuid": "16a20c86-68c5-4f23-aa76-835762ad495c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "scale_rel": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "3. Lagu Indonesia Raya",
+            "uuid": "fc9a5d78-ffb8-43b8-9c96-d4f01e0762b3",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Image Slide Show",
+                        "source_uuid": "47127fe0-0539-4ded-9abe-a87c5cf46c82",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 69.0,
+                            "y": -48.0
+                        },
+                        "pos_rel": {
+                            "x": -1.8722221851348877,
+                            "y": -1.0888888835906982
+                        },
+                        "scale": {
+                            "x": 1.0890624523162842,
+                            "y": 1.0888888835906982
+                        },
+                        "scale_rel": {
+                            "x": 1.0890624523162842,
+                            "y": 1.0888888835906982
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "4. Mengheningkan Cipta",
+            "uuid": "dc597fe5-1f3a-4717-b1a6-debe83ce5538",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Lirik",
+                        "source_uuid": "b17f3c32-8579-499e-8c6a-f0abac1acb92",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "5. Prosesi Pengukuhan",
+            "uuid": "2884472b-7850-4cfe-981a-2eeb2d1c33f0",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Image Slide Show 4",
+                        "source_uuid": "f698fdce-e6b0-45b0-97be-6fd95f1207af",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "6. Wisudawan Terbaik",
+            "uuid": "8e878c98-c134-464a-93a2-6fb809fc8f45",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Image Slide Show 2",
+                        "source_uuid": "e86ee169-e0db-4931-a655-ef1667e14929",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "7. Janji Wisudawan",
+            "uuid": "3bcf0fb7-d447-44e7-bf1c-2a83e6505381",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Image Slide Show 3",
+                        "source_uuid": "cf62bb56-45f2-46f7-b08a-b8522d70f5d4",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "8. Satu nusa satu bangsa",
+            "uuid": "9ef92514-69a0-43ba-9712-71ddb91095fa",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Image Slide Show 5",
+                        "source_uuid": "77ed835c-d64f-41e7-8ae6-e870a60dfc69",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "9. Mars & Hymne",
+            "uuid": "736093b2-1634-47bc-909d-2f2f654a04fb",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Image Slide Show 6",
+                        "source_uuid": "73d64c3e-f804-49eb-b22b-5abef60560d5",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Desain tanpa judul.mp4",
+            "uuid": "16a20c86-68c5-4f23-aa76-835762ad495c",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "C:/Users/Perpustakaan/Downloads/Desain tanpa judul (3) (1).mp4",
+                "looping": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": true,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 2,
+            "private_settings": {
+                "mixer_hidden": true
+            }
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Focus to One Person",
+            "uuid": "222cc202-d3cb-4a44-9ed5-7e5d44a013a1",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 3,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Media Source",
+                        "source_uuid": "5e8143a1-a07e-43fa-895b-0a60a67ec43c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "scale_rel": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F"
+                    }
+                ],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Gending Temanten Adat Jawa  kebo giro.mp3",
+            "uuid": "9c1560ef-1b6c-4fea-9710-94dd363c3f67",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "F:/Wisuda aset/1. Prosesi masuk.mp3",
+                "looping": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 2,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image",
+            "uuid": "8dae9352-d053-46ec-8777-1aa8b41bbb85",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "F:/Wisuda aset/Janji Wisudawan/1.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image Slide Show",
+            "uuid": "47127fe0-0539-4ded-9abe-a87c5cf46c82",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "files": [
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/1.jpg",
+                        "uuid": "c57a023b-8796-42f6-8322-9cea076ce6bb",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/2.jpg",
+                        "uuid": "ae849668-e55f-4ed3-84c9-b96e3dd8089d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/3.jpg",
+                        "uuid": "456888e7-5c81-4288-a26c-68c3d066c820",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/4.jpg",
+                        "uuid": "80216140-431d-4eec-a68c-7a773161f08e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/5.jpg",
+                        "uuid": "4b4d4753-a4cc-4043-9376-c1ca5b2c5d13",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/6.jpg",
+                        "uuid": "33e902ed-2d08-41a2-abf8-a6deb2f91ba2",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/7.jpg",
+                        "uuid": "290df01a-107b-4999-a977-6760ca6a5880",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/8.jpg",
+                        "uuid": "fb2fbcef-5afa-4c5f-a9ba-e4b207297bff",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/9.jpg",
+                        "uuid": "368089f3-8468-4654-8eac-2ee319d8bfe1",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/10.jpg",
+                        "uuid": "ba538aa8-21b4-4d9f-a6e3-2d4d6b16e38b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/11.jpg",
+                        "uuid": "40ba8516-f8eb-4c70-b9c1-a09ede612ba5",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/12.jpg",
+                        "uuid": "18822776-3b07-4369-a010-815ae5f66c42",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/13.jpg",
+                        "uuid": "433e659b-e5f3-48bd-a26d-035080d5e026",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/14.jpg",
+                        "uuid": "97f93823-75b9-4b77-9c09-17497bfd7d78",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/15.jpg",
+                        "uuid": "5c979fc9-df85-443c-bdcc-5a4601fafbb9",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/16.jpg",
+                        "uuid": "1cf24252-0e6c-40b9-b6e8-62baf39daf68",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/17.jpg",
+                        "uuid": "7740d7b7-494a-472c-87e4-50b5b9f8363e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/18.jpg",
+                        "uuid": "7724908d-e98a-455d-b26e-4bd239c88c23",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/19.jpg",
+                        "uuid": "f0d1a731-85e5-4956-8bf1-3df9be2ab491",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/20.jpg",
+                        "uuid": "c43a1d47-1edc-49ff-a60c-cf72e71d34dc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/21.jpg",
+                        "uuid": "b8c8ad1a-35b9-4b93-809f-70f5a6a56a27",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/22.jpg",
+                        "uuid": "4f9765a2-3683-4926-9845-1093f48b536d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/23.jpg",
+                        "uuid": "32c47fc3-55ca-4f20-bee4-28dcd78b7097",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/24.jpg",
+                        "uuid": "1744ade5-f78d-4e30-bb8d-dcd4fa29fb3a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/25.jpg",
+                        "uuid": "2c679811-d82d-4023-b62a-7e4c0c05877b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/26.jpg",
+                        "uuid": "b48c338d-266d-486f-9f5f-8b889ee1769a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik indonesia raya/27.jpg",
+                        "uuid": "db4892ed-8e9a-4be2-a467-d90cbf0dd6d7",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "hide": true,
+                "transition": "fade",
+                "transition_speed": 300,
+                "playback_behavior": "stop_restart",
+                "slide_mode": "mode_manual",
+                "playback_mode": "once"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image Slide Show 2",
+            "uuid": "e86ee169-e0db-4931-a655-ef1667e14929",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "hide": true,
+                "files": [
+                    {
+                        "value": "F:/Wisuda aset/BG Wisudawan terbaik",
+                        "uuid": "0027cc7d-cc8a-474a-8d72-3ebb5648ce69",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "transition_speed": 300,
+                "use_custom_size": "2160x1080",
+                "slide_mode": "mode_manual"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image Slide Show 3",
+            "uuid": "cf62bb56-45f2-46f7-b08a-b8522d70f5d4",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "hide": true,
+                "files": [
+                    {
+                        "value": "F:/Wisuda aset/Janji Wisudawan",
+                        "uuid": "ff7b5e88-99ca-40d7-b32b-6bfb6cbe62a3",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "use_custom_size": "2160x1080",
+                "slide_mode": "mode_manual",
+                "playback_mode": "once"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image Slide Show 4",
+            "uuid": "f698fdce-e6b0-45b0-97be-6fd95f1207af",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "hide": false,
+                "files": [
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/1.png",
+                        "uuid": "88081791-7ea0-4469-bc3a-515a68c9a5bc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/2.png",
+                        "uuid": "2be02130-9341-4a82-b78d-e6e5d780ad37",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/3.png",
+                        "uuid": "9857b27a-4fe4-469b-a951-d100203c7529",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/4.png",
+                        "uuid": "3b2645ae-e66e-4ab1-9e59-4ed0a9e0cf40",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/5.png",
+                        "uuid": "dfbfbe8d-7784-4d96-925c-e598c36b6c5b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/6.png",
+                        "uuid": "5fc29bde-d22e-433b-88d0-b2b2b3f7657a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/7.png",
+                        "uuid": "2411ab7b-5100-4d5b-95a2-6da7b8110803",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/8.png",
+                        "uuid": "55102c69-5465-4c67-826e-b397cf2ef280",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/9.png",
+                        "uuid": "267ed371-f422-45d3-8819-6c6e118f6446",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/10.png",
+                        "uuid": "0396e623-3d41-4520-96ac-10a3b04410fd",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/11.png",
+                        "uuid": "9879caea-f9d5-4622-a762-32a2a9960772",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/12.png",
+                        "uuid": "55889525-8e12-4679-a999-0c33500eaff7",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/13.png",
+                        "uuid": "10554580-2623-43f2-bcbc-7a0de59d7318",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/14.png",
+                        "uuid": "72f901fa-c1e2-40c1-b574-c01d806dd038",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/15.png",
+                        "uuid": "104af821-45e8-42fe-9190-0a7f64a2937d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/16.png",
+                        "uuid": "bc7981e4-b2c8-40b8-9d65-af36cc6f938c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/17.png",
+                        "uuid": "3954ebf2-5ff5-428c-9820-f7d9d24dc14a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/18.png",
+                        "uuid": "2e7531f3-c1a1-434d-a8e9-299c49195af0",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/19.png",
+                        "uuid": "f4d6dda4-8072-4242-901a-67405b2a90fb",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/20.png",
+                        "uuid": "1bf47d13-9c2b-4f54-829f-1db5b0e540e2",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/21.png",
+                        "uuid": "aad72af4-110f-4cd7-81aa-918f0e6330b1",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/22.png",
+                        "uuid": "2d5318d2-1a1d-4a8a-8b33-e7cec2ef8732",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/23.png",
+                        "uuid": "06ae39ed-805a-4df4-89cb-f5ce3fafc08d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/24.png",
+                        "uuid": "8187e582-29dc-45b3-8b06-69c1e9746fb5",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/25.png",
+                        "uuid": "d6cb74a4-aedd-43e6-9559-ce62e566e5cf",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/26.png",
+                        "uuid": "1affcdd6-de8a-46dd-b07d-1e378e40d3d3",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/27.png",
+                        "uuid": "8a7e9570-656e-4ddd-a792-0f2d0d2667df",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/28.png",
+                        "uuid": "beaefe0d-25fd-4a0f-b88a-d6c95a394ab5",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/29.png",
+                        "uuid": "664f2865-487b-4ffa-9346-98da8413157d",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/30.png",
+                        "uuid": "0aae17c1-8707-415a-b976-b56de4d54252",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/31.png",
+                        "uuid": "07f75c22-1fb5-4bf0-8d21-8bcec0c9d685",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/32.png",
+                        "uuid": "36c122f4-f90e-48d9-ae55-c30a707ba02a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/33.png",
+                        "uuid": "411fd553-a48d-4776-8cb9-95a2dccb97ed",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/34.png",
+                        "uuid": "59d070a1-4119-43ed-bdb3-2f1e510f9b93",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/35.png",
+                        "uuid": "8845dd45-042b-4082-bdd1-e04732439be1",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/36.png",
+                        "uuid": "6ba91787-f31f-47f3-b332-03753c08cca0",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/37.png",
+                        "uuid": "9c4303af-6543-40ed-a673-b0a4038e35d3",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/38.png",
+                        "uuid": "1068b178-cb1f-4f6d-9229-8a7b9538a45c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/39.png",
+                        "uuid": "63d4c689-9b24-481c-8684-2f359b19f2e8",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/40.png",
+                        "uuid": "21c7203d-e67c-4250-810a-bc9f7cfb20cf",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/41.png",
+                        "uuid": "52f2a274-85de-4115-a5d0-21f8cc1a145f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/42.png",
+                        "uuid": "8c8b5c6b-48fa-4ec4-a3a9-06c90e02ac5a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/43.png",
+                        "uuid": "d95afc9f-0c55-4c91-b183-7eb5b24d1371",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/44.png",
+                        "uuid": "399388f1-015b-41a3-a65c-4183e1304288",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/45.png",
+                        "uuid": "8a191046-accd-4e89-b3df-e0068ba9d7f4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/46.png",
+                        "uuid": "76f7a6b2-0ad8-4e59-a890-7b2a9daf5006",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/47.png",
+                        "uuid": "94fe2778-23d0-449d-b15e-9244f0c19225",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/48.png",
+                        "uuid": "34c76801-7ae6-44c6-b7a4-6ad2f2b962c3",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/49.png",
+                        "uuid": "dd6debcc-a735-46d2-8992-71fc4f4094c2",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/50.png",
+                        "uuid": "11d4bc29-76be-4d19-b1cf-0fa39b491d91",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/51.png",
+                        "uuid": "2db8da68-96a4-4b39-bf91-c7a7781d1323",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/52.png",
+                        "uuid": "67f777bf-eb08-4f20-823a-9f09ba967161",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/53.png",
+                        "uuid": "a2c76a8c-4ee1-4520-aaa6-9bd24b7e5e7e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/54.png",
+                        "uuid": "6e02a0b4-d823-4ba6-b377-d21b1777108e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/55.png",
+                        "uuid": "7fdef47a-23a5-4cac-ba4f-fd1f4a79904c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/56.png",
+                        "uuid": "4cd4bb9c-4bbc-4e20-ae5c-4940a040ddf6",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/57.png",
+                        "uuid": "80a261a1-dc62-4358-82ba-6a59bcb8b618",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/58.png",
+                        "uuid": "01242fc6-d704-4f57-82df-42d8f88f221a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/59.png",
+                        "uuid": "0d23aa89-a59a-4bd2-b249-39810e7b7e88",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/60.png",
+                        "uuid": "caae30e1-e9f4-4170-9b18-dd33f422340e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/61.png",
+                        "uuid": "ab2b09b1-e12c-42b3-b87b-0db26f2a6dae",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/62.png",
+                        "uuid": "c1e6c4dd-1335-4ae1-9e24-cdfcbef87056",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/63.png",
+                        "uuid": "b8264dbf-331a-4778-bf9a-5f31a02c5f5b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/64.png",
+                        "uuid": "5d4333d6-0d26-4789-b5df-ab4cbb14a129",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/65.png",
+                        "uuid": "b8c96fad-f330-4e68-87c6-c0ad1b415dd2",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/66.png",
+                        "uuid": "41d82481-bb17-4202-9dd0-579a7606eb9f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/67.png",
+                        "uuid": "8460f9c0-ce73-4643-8e25-2875370a5d06",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/68.png",
+                        "uuid": "a967f95e-0eef-4a94-876c-38a360388374",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/69.png",
+                        "uuid": "b77459d5-4333-4002-86f4-660672bbfc62",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/70.png",
+                        "uuid": "b6753d47-eea7-4606-b519-3a2d0300142a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/71.png",
+                        "uuid": "0ea62b00-0bb3-4348-8b0d-96ce764274be",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/72.png",
+                        "uuid": "1e78c7aa-8dfd-4de0-8828-0126e92f50ec",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/73.png",
+                        "uuid": "3d2dde9f-66ff-4650-9fad-733f9eb779ad",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/BG Pengukuhan/74.png",
+                        "uuid": "498a923b-2b16-48b9-bba1-4d78586fd119",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "transition_speed": 300,
+                "use_custom_size": "2160x1080",
+                "slide_mode": "mode_manual",
+                "playback_mode": "once"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image Slide Show 5",
+            "uuid": "77ed835c-d64f-41e7-8ae6-e870a60dfc69",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "hide": true,
+                "files": [
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/1.jpg",
+                        "uuid": "3d5d9cef-6cc5-4a80-9fd4-5ca5d8b741e8",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/2.jpg",
+                        "uuid": "2744a4c3-4841-4e54-a76d-eaa09d5908a4",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/3.jpg",
+                        "uuid": "6f7dc1e6-b37c-438c-aa62-15d0dfb4870f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/4.jpg",
+                        "uuid": "d937b8de-3e47-4cf2-bbac-448116860420",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/5.jpg",
+                        "uuid": "7a60e12f-9369-4836-afcc-5b501573a5bc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/6.jpg",
+                        "uuid": "739328f7-4d19-4d0f-9799-d2b8d2d4237e",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/7.jpg",
+                        "uuid": "b46b4b5d-705b-4ef7-9ca8-40bdf8c9904b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/8.jpg",
+                        "uuid": "2b7f0932-b951-4a93-9ab0-b42297b5a038",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/9.jpg",
+                        "uuid": "37fa1b33-db7e-4339-8134-447f48c27473",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik satu nusa satu bangsa/10.jpg",
+                        "uuid": "7ee86ebd-2297-4ef9-b2a7-004f7b952952",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "transition_speed": 300,
+                "use_custom_size": "2160x1080",
+                "slide_mode": "mode_manual",
+                "playback_mode": "once"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image Slide Show 6",
+            "uuid": "73d64c3e-f804-49eb-b22b-5abef60560d5",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "hide": true,
+                "files": [
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/1.jpg",
+                        "uuid": "5aaf708d-a9e4-464f-949f-935349b21f8f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/2.jpg",
+                        "uuid": "c2071d83-b0f2-4d5d-a25b-3e1a93ba4c1c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/3.jpg",
+                        "uuid": "fd451c93-6455-4d3b-b4fa-6c59c029f06f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/4.jpg",
+                        "uuid": "820e14eb-062e-43f6-9f04-4f7d0c68c52c",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/5.jpg",
+                        "uuid": "bbee5e44-350f-4b97-bba7-87b3f1496675",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/6.jpg",
+                        "uuid": "bcd25a0f-bea7-4431-84b2-f77e7e76b6ab",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/7.jpg",
+                        "uuid": "091883e7-628a-4f84-b518-a6f059864c29",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/8.jpg",
+                        "uuid": "ad915c69-eec3-4014-b732-e91d8f2c409a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/9.jpg",
+                        "uuid": "215f1acc-ab46-49bc-99bd-faf71643a51f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/10.jpg",
+                        "uuid": "1159b17d-7c77-4af8-9a3a-0ff49f22a7d3",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/11.jpg",
+                        "uuid": "68878138-d978-4bf5-96c7-95e70a127e4b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/12.jpg",
+                        "uuid": "5c61f95f-e741-4f2c-8b3e-a0481d021132",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/13.jpg",
+                        "uuid": "5b9dd609-cd45-4553-bc91-6ec104417072",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/14.jpg",
+                        "uuid": "980de204-81f3-40f6-a8bd-21710d94fb89",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/15.jpg",
+                        "uuid": "a42f1637-7816-4ddb-bb5a-da6cf327d8cc",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/16.jpg",
+                        "uuid": "0e4f7b2e-dda9-4270-ab57-447ddc876341",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/17.jpg",
+                        "uuid": "fbd67b8a-dfbd-4347-9d5d-ba8bcb529a8b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/18.jpg",
+                        "uuid": "b828aac7-4f13-41da-9a29-a4560dda72fe",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/19.jpg",
+                        "uuid": "cba44fce-1635-4d38-a3ac-c0968aa1313a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/20.jpg",
+                        "uuid": "22d2e068-d3c8-4564-9f74-2ddc79c4c97b",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/21.jpg",
+                        "uuid": "1cc74c66-be8d-4192-a964-6e38c5cf1372",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/22.jpg",
+                        "uuid": "468bc14c-22fc-4591-8d80-55cd2f3ed7f1",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/23.jpg",
+                        "uuid": "d960e1d0-05bd-4b3d-94c8-c6dfc5344bef",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/24.jpg",
+                        "uuid": "37cd9b47-f30e-43c9-b793-00a9fa25ae0f",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/25.jpg",
+                        "uuid": "c70382cd-701d-4b63-99a1-b836fd514882",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/26.jpg",
+                        "uuid": "f8752daa-307b-462e-919d-ff46e3d7db0a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/27.jpg",
+                        "uuid": "41d0cda8-4499-4aa1-8884-86e4f4e63393",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Lirik mars dan hymne/28.jpg",
+                        "uuid": "7b786ae1-4445-4423-9dac-038b38d7cf3d",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "transition_speed": 300,
+                "use_custom_size": "2160x1080",
+                "slide_mode": "mode_manual",
+                "playback_mode": "once"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image Slide Show 7",
+            "uuid": "f542bcf8-4baf-455b-879d-3ade4aba5250",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "hide": true,
+                "files": [
+                    {
+                        "value": "F:/Wisuda aset/BG Sambutan Direktur/Sambutan Direktur.png",
+                        "uuid": "8b002711-8b58-4338-91b6-8b9b58a89a96",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "transition_speed": 300,
+                "use_custom_size": "2160x1080",
+                "slide_mode": "mode_manual",
+                "playback_mode": "once"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 520159234,
+                    "name": "Color Key",
+                    "uuid": "ed4d72f6-6724-4fd9-aab8-54137d912a4c",
+                    "id": "color_key_filter",
+                    "versioned_id": "color_key_filter_v2",
+                    "settings": {
+                        "key_color": 4279831047,
+                        "key_color_type": "custom",
+                        "similarity": 1
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Image Slide Show 8",
+            "uuid": "fad38fcc-0a2a-4984-9406-bb3869683a3b",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "files": [
+                    {
+                        "value": "F:/Wisuda aset/Materi Industri",
+                        "uuid": "00f4210e-01ca-4b58-a132-4d39d1c35031",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "slide_mode": "mode_manual"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Lirik",
+            "uuid": "b17f3c32-8579-499e-8c6a-f0abac1acb92",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "files": [
+                    {
+                        "value": "F:/Wisuda aset/Lirik mengheningkan cipta",
+                        "uuid": "a04c9a71-489e-4d05-ae42-66b1e8cb148a",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "hide": true,
+                "use_custom_size": "2160x1080",
+                "playback_behavior": "stop_restart",
+                "slide_mode": "mode_manual",
+                "playback_mode": "once"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Main BG",
+            "uuid": "c26caf87-afdb-4bf9-9737-ebd3d316d1ac",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 6,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Desain tanpa judul.mp4",
+                        "source_uuid": "16a20c86-68c5-4f23-aa76-835762ad495c",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "scale_rel": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_M"
+                    }
+                ],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Media Source",
+            "uuid": "5e8143a1-a07e-43fa-895b-0a60a67ec43c",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "F:/Wisuda aset/One Person BG.mp4"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": true,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Media Source 2",
+            "uuid": "8cbe8b49-40ce-49aa-b9d0-b8a71e55ed21",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "F:/Wisuda aset/2. Tari persembahan.mp3",
+                "looping": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 2,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Off",
+            "uuid": "c773259c-b7d7-424d-8657-56944a0dd9f6",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 3,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Desain tanpa judul.mp4",
+                        "source_uuid": "16a20c86-68c5-4f23-aa76-835762ad495c",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "scale_rel": {
+                            "x": 1.060903787612915,
+                            "y": 1.060903787612915
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "VLC Video Source",
+                        "source_uuid": "3e84a6db-a7e0-4f82-9d77-86fa7e12fcf9",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2160.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -2.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "VLC Video Source",
+            "uuid": "3e84a6db-a7e0-4f82-9d77-86fa7e12fcf9",
+            "id": "vlc_source",
+            "versioned_id": "vlc_source",
+            "settings": {
+                "playlist": [
+                    {
+                        "value": "F:/Wisuda aset/Closing Music/1. Endank Soekamti - Sampai Jumpa (Official Lyric Video with Sign Language).mp3",
+                        "uuid": "6d0914d3-a9a4-4146-b66a-2d9504ca1923",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Closing Music/2. Bondan & Fade 2 Black - Kita Slamanya.mp3",
+                        "uuid": "6fa015f1-1184-48e6-a9dd-76ac5d1a6483",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Closing Music/3. Ada Band - Yang Terbaik Bagimu (Jangan Lupakan Ayah) (Official Lyric).mp3",
+                        "uuid": "946a83ad-db2a-49ff-a285-beec817deb3a",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Closing Music/4. Feast - Nina (Official Lyric Video).mp3",
+                        "uuid": "9e558baf-4d9d-45ce-bfa1-1750b9b74d98",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Closing Music/5. Virgoun - Saat Kau Telah Mengerti  Lirik Lagu.mp3",
+                        "uuid": "63fce218-66f6-44bc-ab2a-0cd4a33714d6",
+                        "selected": false,
+                        "hidden": false
+                    },
+                    {
+                        "value": "F:/Wisuda aset/Closing Music/6. For Revenge Feat. Stereowall - Jakarta Hari Ini (Official Lyric Video).mp3",
+                        "uuid": "40de8c5c-afa3-437c-8996-dbe211e6e14c",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ]
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "VLCSource.PlayPause": [],
+                "VLCSource.Restart": [],
+                "VLCSource.Stop": [],
+                "VLCSource.PlaylistNext": [],
+                "VLCSource.PlaylistPrev": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 1,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159234,
+            "name": "Window Capture",
+            "uuid": "1acf3d83-22af-4f4d-b2d1-4df2c2ec375a",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "window": "PowerPoint Slide Show - [PPT Sambutan Direktur 2025.pptx]:screenClass:POWERPNT.EXE"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        }
+    ]
+}
